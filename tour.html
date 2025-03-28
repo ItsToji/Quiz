@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Virtual 360</title>
+    <!-- Enlace al archivo CSS para los estilos del tour -->
+    <link rel="stylesheet" href="css/tour.css">
+    <!-- Librería Three.js para renderizar gráficos 3D -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r105/three.min.js"></script>
+    <!-- Enlace al favicon de la Universidad -->
+    <link rel="icon" href="img/LogoCenfotec.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Encabezado del tour -->
+    <header>
+        <h1>Tour Virtual 360</h1>
+        <!-- Botón para regresar a la portada -->
+        <a href="portada.html" class="btn-regresar">Regresar a la Portada</a>
+    </header>
+
+    <!-- Contenedor principal donde se renderiza el tour -->
+    <main>
+        <div id="container"></div>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Emmanuel Barquero Araya 2025</p>
+    </footer>
+
+    <!-- Librería Panolens para manejar el tour 360 -->
+    <script src="js/panolens.min.js"></script>
+    <!-- Archivo JavaScript con la lógica del tour -->
+    <script src="js/tour.js" defer></script>
+</body>
+
+</html>
